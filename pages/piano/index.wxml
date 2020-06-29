@@ -1,0 +1,22 @@
+<!-- audio.wxml -->
+<audio src="/pages/piano/YLXB.mp3" id="A4"></audio>
+<audio src="/pages/piano/song.ogg" id="B4"></audio>
+<audio src="/pages/piano/yinyue/4.mp3" id="C4"></audio>
+<audio src="/pages/piano/yinyue/5.mp3" id="D4"></audio>
+<audio src="/pages/piano/yinyue/6.mp3" id="E4"></audio>
+<audio src="/pages/piano/yinyue/7.mp3" id="F4"></audio>
+<audio src="/pages/piano/ZuiAi.m4a" id="G4"></audio>
+<audio src="/pages/piano/yinyue/1.mp3" id="G3"></audio>
+<audio src="/pages/piano/yinyue/2.mp3" id="A3"></audio>
+<audio src="/pages/piano/yinyue/3.mp3" id="B3"></audio>
+
+<button bindtap="playG3" class="key">Do</button>
+<button bindtap="playA3" class="key">Re</button>
+<button bindtap="playB3" class="key">Mi</button>
+<button bindtap="playC4" class="key">Fa</button>
+<button bindtap="playD4" class="key">So</button>
+<button bindtap="playE4" class="key">La</button>
+<button bindtap="playF4" class="key">Si</button>
+<button bindtap="playG4" class="key">G4</button>
+<button bindtap="playA4" class="key">A4</button>
+<button bindtap="playB4" class="key">B4</button>
